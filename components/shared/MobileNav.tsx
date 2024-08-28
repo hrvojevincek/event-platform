@@ -17,12 +17,7 @@ const MobileNav = () => {
           />
         </SheetTrigger>
         <SheetContent className="flex flex-col gap-6 bg-white md:hidden">
-          <Image
-            src="/assets/images/logo.svg"
-            alt="logo"
-            width={128}
-            height={38}
-          />
+          <h1>von Frau zu Frau</h1>
           <Separator className="border border-gray-50" />
           <NavItems />
         </SheetContent>
