@@ -22,7 +22,8 @@ const Checkout = ({ event, userId }: { event: IEvent; userId: string }) => {
     }
   }, []);
 
-  const onCheckout = async () => {
+  const onCheckout = async (e: React.FormEvent) => {
+    e.preventDefault(); // Prevent the default form submission behavior
     const order = {
       eventTitle: event.title,
       eventId: event._id,
@@ -35,7 +36,7 @@ const Checkout = ({ event, userId }: { event: IEvent; userId: string }) => {
   };
 
   return (
-    <form action={onCheckout} method="post">
+    <form onSubmit={onCheckout}>
       <Button type="submit" role="link" size="lg" className="button sm:w-fit">
         {event.isFree ? "Get Ticket" : "Buy Ticket"}
       </Button>
