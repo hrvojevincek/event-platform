@@ -8,6 +8,7 @@ import { auth } from "@clerk/nextjs/server";
 import Link from "next/link";
 
 const ProfilePage = async ({ searchParams }: SearchParamProps) => {
+  
   const { sessionClaims } = auth();
   const userId = sessionClaims?.userId as string;
 
