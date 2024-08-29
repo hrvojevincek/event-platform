@@ -1,6 +1,6 @@
 ## 📋 <a name="table">Event Platform Management Website</a>
 
-LIVE AT : 
+LIVE AT : https://event-platform-beige-nu.vercel.app/
 
 . ⚙️ [Tech Stack](#tech-stack)
 . 🔋 [Features](#features)
