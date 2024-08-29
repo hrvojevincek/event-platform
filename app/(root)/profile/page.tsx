@@ -6,9 +6,9 @@ import { IOrder } from "@/lib/database/models/order.model";
 import { SearchParamProps } from "@/types";
 import { auth } from "@clerk/nextjs/server";
 import Link from "next/link";
+import React from "react";
 
 const ProfilePage = async ({ searchParams }: SearchParamProps) => {
-  
   const { sessionClaims } = auth();
   const userId = sessionClaims?.userId as string;
 
