@@ -16,6 +16,7 @@ Next.js 14 full-stack platform for managing events. Featuring payment processing
 - Node.js
 - Next.js
 - TypeScript
+- MongoDB
 - TailwindCSS
 - Stripe
 - Zod
