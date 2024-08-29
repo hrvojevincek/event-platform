@@ -10,7 +10,7 @@ const Header = () => {
     <header className="w-full border-b">
       <div className="wrapper flex items-center justify-between">
         <Link href="/" className="w-36">
-          <h1>von Frau zu Frau</h1>
+          <h1>workshop hub</h1>
         </Link>
 
         <SignedIn>

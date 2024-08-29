@@ -17,7 +17,7 @@ const MobileNav = () => {
           />
         </SheetTrigger>
         <SheetContent className="flex flex-col gap-6 bg-white md:hidden">
-          <h1>von Frau zu Frau</h1>
+          <h1>workshop hub</h1>
           <Separator className="border border-gray-50" />
           <NavItems />
         </SheetContent>
